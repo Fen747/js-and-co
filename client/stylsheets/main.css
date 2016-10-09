@@ -13,15 +13,18 @@ main {
 }
 
 .fixed-parallax-size {
-  min-height: 90vh;
+  min-height: 920px;
 }
 
 .next-section {
-  position: absolute;
-  bottom: 0;
   margin-bottom: 20px;
+  margin-top: 200px;
 }
 
 .no-margin {
   margin: 0 0 0 0 !important;
+}
+
+.section-title {
+  margin-top: 70px;
 }

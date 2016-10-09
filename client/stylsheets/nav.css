@@ -1,7 +1,8 @@
-.nav-fixed-height {
-  height: 10vh;
-}
-
 #burger-btn {
   padding: 0px 10px 0px 10px;
+}
+
+.dropdown-menu {
+  top: 64px !important;
+  width: 100% !important;
 }

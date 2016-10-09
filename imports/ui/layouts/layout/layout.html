@@ -2,27 +2,42 @@
   {{> signinModal }}
   {{> loginModal }}
   <header class="navbar-fixed">
+    <ul id="menu-dropdown" class="dropdown-content dropdown-menu">
+      <li><a href="#!" data-nav="iterations">It&eacute;rations</a></li>
+      <li><a href="#!" data-nav="partenaires">Nos Partenaires</a></li>
+      <li><a href="#!" data-nav="team">La Team</a></li>
+      <!--<li class="divider"></li>-->
+    </ul>
     <nav class="nav-fixed-height">
       <div class="nav-wrapper purple-js">
         <a href="#" class="brand-logo" id="js-logo">JS &amp; CO</a>
-        <a href="#" data-activates="mobile-side-nav" id="burger-btn" class="button-collapse">
+        <a href="#" data-activates="side-nav" id="burger-btn" class="button-collapse">
           <i class="fa fa-bars"></i>
         </a>
         <ul class="right hide-on-med-and-down">
+          <!--
           {{#if currentUser}}
             <li><a href="" class="waves-effect" id="js-logout">Log out</a></li>
           {{else}}
             <li><a href="" class="waves-effect" id="js-signin">Sign up</a></li>
             <li><a href="" class="waves-effect" id="js-login">Log in</a></li>
           {{/if}}
+          -->
+          <li><a class="dropdown-button" href="#!" data-activates="menu-dropdown">Menu<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
-        <ul class="side-nav" id="mobile-side-nav">
+        <ul class="side-nav" id="side-nav">
+          <!--
           {{#if currentUser}}
             <li><a href="" class="waves-effect" id="js-logout">Log out</a></li>
           {{else}}
             <li><a href="" class="waves-effect" id="js-signin">Sign up</a></li>
             <li><a href="" class="waves-effect" id="js-login">Log in</a></li>
           {{/if}}
+          -->
+          <li class="divider"></li>
+          <li><a href="#!" data-nav="iterations">It&eacute;rations</a></li>
+          <li><a href="#!" data-nav="partenaires">Nos Partenaires</a></li>
+          <li><a href="#!" data-nav="team">La Team</a></li>
         </ul>
       </div>
     </nav>
