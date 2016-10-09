@@ -1,0 +1,18 @@
+@import "{}/client/stylesheets/vars.scss";
+
+#burger-btn {
+  padding: 0px 10px 0px 10px;
+}
+
+.dropdown-menu {
+  top: $nav-height !important;
+  width: 100% !important;
+}
+
+.dropdown-menu {
+  li {
+    a {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@import "{}/client/stylesheets/vars.scss";
+
+.yellow-js {
+  background-color: $yellow-js;
+}
+
+.purple-js {
+  background-color: $purple-js;
+}
+
+.yellow-js-text {
+  color: $yellow-js;
+}
+
+.purple-js-text {
+  color: $purple-js;
+}
+
+.yellow-js-border {
+  border-color: $yellow-js;
+}
+
+.purple-js-border {
+  border-color: $purple-js;
+}
+
+.yellow-js-i {
+  background-color: $yellow-js !important;
+}
+
+.purple-js-i {
+  background-color: $purple-js !important;
+}
+
+.yellow-js-text-i {
+  color: $yellow-js !important;
+}
+
+.purple-js-text-i {
+  color: $purple-js !important;
+}
+
+.yellow-js-border-i {
+  border-color: $yellow-js !important;
+}
+
+.purple-js-border-i {
+  border-color: #29293f !important;
+}
