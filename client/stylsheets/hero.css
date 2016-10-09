@@ -1,0 +1,12 @@
+.hero-title {
+  color: #29293f;
+  font-weight: 900;
+}
+
+.hero-text {
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.hero-logo {
+  max-height: 200px;
+}
