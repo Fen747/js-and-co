@@ -6,3 +6,7 @@
   top: 64px !important;
   width: 100% !important;
 }
+
+.dropdown-menu > li > a {
+  text-align: center;
+}
