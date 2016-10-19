@@ -1,4 +1,5 @@
 @import "{}/client/stylesheets/vars.scss";
+@import url('https://fonts.googleapis.com/css?family=Righteous');
 
 body {
   display: flex;
@@ -26,4 +27,18 @@ main {
 
 .material-icons.big {
   font-size: 3.5em;
+}
+
+.overlay {
+  background-image: url(./../images/overlay.png);
+}
+
+.counter-text-number {
+  font-family: 'Righteous';
+  font-size: 8rem;
+}
+
+.counter-text {
+  font-family: 'Righteous';
+  font-size: 2.5rem;
 }
