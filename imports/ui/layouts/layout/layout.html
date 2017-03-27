@@ -3,15 +3,16 @@
   {{> loginModal }}
   <header class="navbar-fixed">
     <ul id="menu-dropdown" class="dropdown-content dropdown-menu">
-      <li><a href="#!" data-nav="iterations">Interventions</a></li>
-      <li><a href="#!" data-nav="partenaires">Nos Partenaires</a></li>
-      <li><a href="#!" data-nav="team">La Team</a></li>
+      <li><a href="#!" data-nav="iterations" class="menu-title">Interventions</a></li>
+      <li><a href="#!" data-nav="events" class="menu-title">Events</a></li>
+      <li><a href="#!" data-nav="partenaires" class="menu-title">Nos Partenaires</a></li>
+      <li><a href="#!" data-nav="team" class="menu-title">La Team</a></li>
       <!--<li class="divider"></li>-->
     </ul>
     <nav class="nav-fixed-height">
       <div class="nav-wrapper purple-js">
-        <a href="#" class="brand-logo" id="js-logo">JS &amp; CO</a>
-        <a href="#" data-activates="side-nav" id="burger-btn" class="button-collapse">
+        <a href="#!" class="brand-logo logo-navbar" id="js-logo">JS &amp; CO</a>
+        <a href="#" data-activates="side-nav" id="burger-btn" class="button-collapse right">
           <i class="fa fa-bars"></i>
         </a>
         <ul class="right hide-on-med-and-down">
@@ -23,7 +24,7 @@
             <li><a href="" class="waves-effect" id="js-login">Log in</a></li>
           {{/if}}
           -->
-          <li>
+          <li class="burger-navbar">
             <a class="dropdown-button" href="#!" data-activates="menu-dropdown">
               <i class="fa fa-bars"></i>
             </a>
@@ -40,6 +41,7 @@
           -->
           <li class="divider"></li>
           <li><a href="#!" data-nav="iterations">It&eacute;rations</a></li>
+          <li><a href="#!" data-nav="events">Events</a></li>
           <li><a href="#!" data-nav="partenaires">Nos Partenaires</a></li>
           <li><a href="#!" data-nav="team">La Team</a></li>
         </ul>
@@ -55,22 +57,23 @@
         <div class="col l6 s12">
           <h5>JS & Co.</h5>
           <p>Association loi 1901.<br>Pour la promotion du langage Javascript sous toutes ses formes.</p>
+          <a href="mailto:contact@js-and-co.fr">contact@js-and-co.fr</a>
         </div>
         <div class="col l6 s12">
           <h5>Nos Réseaux</h5>
           <ul>
             <div class="col s3 l3">
-              <a class="purple-js-text" href="https://www.meetup.com/fr-FR/JavaScript-and-Co/"><span class="zocial-meetup fa-3x"></span></a>
+              <a class="purple-js-text" href="https://www.meetup.com/fr-FR/JavaScript-and-Co/"><span class="fa fa-3x fa-meetup"></span></a>
             </div>
             <div class="col s3 l3">
-              <a class="purple-js-text" href="https://twitter.com/JS_and_Co"><span class="zocial-twitter fa-2x"></span></a>
+              <a class="purple-js-text" href="https://twitter.com/JS_and_Co"><span class="fa fa-3x fa-twitter"></span></a>
             </div>
             <div class="col s3 l3">
-              <a class="purple-js-text" href="https://www.facebook.com/js.toulouse/"><span class="zocial-facebook fa-2x"></span></a>
+              <a class="purple-js-text" href="https://www.facebook.com/js.toulouse/"><span class="fa fa-3x fa-facebook"></span></a>
             </div>
             <!--<a class="purple-js-text" href="https://plus.google.com/u/0/108031296755380927180"><span class="zocial-googleplus fa-2x"></span></a>-->
             <div class="col s3 l3">  
-              <a class="purple-js-text" href="https://www.youtube.com/channel/UCjxZWyxGIR3Yx8Lb1Sc-ukA"><span class="zocial-youtube fa-2x"></span></a>
+              <a class="purple-js-text" href="https://www.youtube.com/channel/UCjxZWyxGIR3Yx8Lb1Sc-ukA"><span class="fa fa-3x fa-youtube"></span></a>
             </div>
           </ul>
         </div>
@@ -78,7 +81,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container center">
-        <span class="purple-js-text-i">© 2016 Copyright JS &amp; Co</span>
+        <span class="purple-js-text-i">© 2016 Copyright JS &amp; Co.</span>
       </div>
     </div>
   </footer>

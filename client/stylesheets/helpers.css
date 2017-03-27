@@ -1,3 +1,23 @@
+/*#home {
+  width: 100%;
+  height: 100%;
+}
+
+#iterations {
+  width: 100%;
+  height: 100vh;
+}
+
+#partenaires {
+  width: 100%;
+  height: 100vh;
+}
+
+#team {
+  width: 100%;
+  height: 100vh;
+}*/
+
 .full-col-btn {
   width: 100%;
   height: 100%;
@@ -9,4 +29,58 @@
 
 .no-margin {
   margin: 0 0 0 0 !important;
+}
+
+#menu-dropdown.dropdown-content.dropdown-menu {
+  background-color: #F8DA59;
+}
+
+.menu-title:hover {
+  background-color: #29293F;
+}
+
+.brand-logo.logo-navbar {
+  left: 50px;
+  color: #F8DA59;
+}
+
+.fa.fa-bars {
+  font-size: 1em;
+  color: #F8DA59;
+}
+
+.next-page {
+  margin-top: 340px;
+}
+
+.next-page-team {
+  margin-top: -150px;
+}
+
+.event-meetup {
+  color: #F8DA59;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+figcaption {
+  margin-top: -30px;
+  color: #F8DA59;
+}
+
+.img-events {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  .brand-logo.logo-navbar {
+    left: 50%;
+  }
+  .next-page {
+    margin-top: 300px;
+  }
 }

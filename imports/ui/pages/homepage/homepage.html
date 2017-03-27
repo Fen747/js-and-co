@@ -1,4 +1,5 @@
 <template name="homepage">
+<section id="home">
   <div class="parallax-container fixed-parallax-size">
     <div class="parallax yellow-js" id="particles-js"></div>
     <div class="section">
@@ -9,7 +10,7 @@
         <h5 class="header col s12 light hero-text">JAVASCRIPT</h5>
         <img src="images/esp_logo.png" alt="JS-and-Co-logo" class="img responsive-img hero-logo"/>
       </div>
-      <form class="row container center purple-js-text">
+      <!--<form class="row container center purple-js-text">
         <h4 class="">Recevoir notre Newsletter</h4>
         <div class="input-field col s12 m8">
           <input id="js-email" type="email" class="validate purple-js-border-i">
@@ -20,8 +21,8 @@
             Envoyer
           </button>
         </div>
-      </form>
-      <div class="col s12 m12 l12">
+      </form>-->
+      <div class="col s12 m12 l12 next-page">
         <h5 class="container center next-section" data-nav="iterations">
           <i class="small material-icons">play_for_work</i>
           Axes d'interventions
@@ -30,8 +31,10 @@
       </div>
     </div>
   </div>
+</section>
 
-  <div class="section fixed-parallax-size purple-js white-text" id="iterations">
+<section id="iterations">
+  <div class="section fixed-parallax-size purple-js white-text view-mobile" id="iterations">
     <div class="row container section-title">
       <div class="col s12 m12 l12 center">
         <h2>3 Axes d'interventions</h2>
@@ -67,35 +70,14 @@
       </div>
     </div>
     <div class="col s12 m12 l12">
-      <h5 class="container center next-section" data-nav="partenaires">
+      <h5 class="container center next-section" data-nav="events">
         <i class="small material-icons">play_for_work</i>
-        Partenaires
+        Evénements
         <i class="small material-icons">play_for_work</i>
       </h5>
     </div>
   </div>
-
-  <!--<div class="parallax-container overlay" id="index-banner">
-    <div class="parallax">
-    <div class="section white-text">
-      <div class="row center">
-        <div class="col s12 m4 l4">
-           <span class="center" style="">25</span>
-           <p class="center">Start Up ont Pitché</p>
-         </div>
-         <div class="col s12 m4 l4">
-           <span class="center" style="">25</span>
-           <p class="center">Start Up ont Pitché</p>
-         </div>
-         <div class="col s12 m4 l4">
-           <span class="center" style="">25</span>
-           <p class="center">Start Up ont Pitché</p>
-         </div>
-      </div>
-    </div>
-      <img src="./../images/coding.jpg">
-    </div>
-  </div>-->
+  </section>
 
   <div class="parallax-container valign-wrapper overlay">
     <div class="section no-pad-bot counter-section">
@@ -117,7 +99,105 @@
     <div class="parallax"><img src="./../images/code-1.jpg" alt="Image code sur ordinateur"></div>
   </div>
 
-  <div class="section fixed-parallax-size purple-js white-text" id="partenaires">
+<section id="events">
+  <div class="section fixed-parallax-size purple-js white-text" id="events">
+    <div class="row container section-title">
+      <div class="col s12 m12 l12 center">
+        <h2>Evénements</h2>
+      </div>
+      <div class="col s12 m12 l12 center">
+        <h3><span class="fa fa-1x fa-meetup event-meetup"></span> Les Meet Up <span class="fa fa-1x fa-meetup event-meetup"></span></h3>
+      </div>
+    </div>
+    <div class="events">
+      <div class="row">
+        <div class="col s12 m6 l3">
+          <figure class="">
+            <img src="http://lorempicsum.com/simpsons/350/200/1" alt="" class="img-events">
+            <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+          </figure>
+        </div>
+        <div class="col s12 m6 l3">
+          <figure>
+            <img src="http://lorempicsum.com/up/350/200/1" alt="" class="img-events">
+            <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+          </figure>
+        </div>
+        <div class="col s12 m6 l3">
+          <figure>
+            <img src="http://lorempicsum.com/nemo/350/200/1" alt="" class="img-events">
+            <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+          </figure>
+        </div>
+        <div class="col s12 m6 l3">
+          <figure>
+            <img src="http://lorempicsum.com/futurama/350/200/1" alt="" class="img-events">
+            <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="events">
+      <div class="row">
+        <div class="col s12 m6 l3">
+          <figure class="">
+            <img src="http://lorempicsum.com/simpsons/350/200/1" alt="" class="img-events">
+            <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+          </figure>
+        </div>
+        <div class="col s12 m6 l3">
+          <figure>
+            <img src="http://lorempicsum.com/up/350/200/1" alt="" class="img-events">
+            <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+          </figure>
+        </div>
+        <div class="col s12 m6 l3">
+          <figure>
+            <img src="http://lorempicsum.com/nemo/350/200/1" alt="" class="img-events">
+            <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+          </figure>
+        </div>
+        <div class="col s12 m6 l3">
+          <figure>
+            <img src="http://lorempicsum.com/futurama/350/200/1" alt="" class="img-events">
+            <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+        
+    <div class="col s12 m12 l12">
+      <h5 class="container center next-section" data-nav="partenaires">
+        <i class="small material-icons">play_for_work</i>
+        Partenaires
+        <i class="small material-icons">play_for_work</i>
+      </h5>
+    </div>
+  </div>
+  </section>
+
+  <div class="parallax-container valign-wrapper overlay">
+    <div class="section no-pad-bot counter-section">
+        <div class="row center">
+          <div class="col s12 m12 l4">
+            <span class="counter counter-text-number white-text center">2</span>
+            <p class="def center counter-text white-text center">Meet Up</p>
+          </div>
+          <div class="col s12 m12 l4">
+            <span class="counter counter-text-number white-text" center>185</span>
+            <p class="def center counter-text white-text center">Javascripters &amp; Co.</p>
+          </div>
+          <div class="col s12 m12 l4">
+            <span class="counter counter-text-number white-text center">2</span>
+            <p class="def center counter-text white-text center">Experts Stack JS</p>
+          </div>
+        </div>
+    </div>
+    <div class="parallax"><img src="./../images/code-1.jpg" alt="Image code sur ordinateur"></div>
+  </div>
+
+<section id="partenaires">
+<div class="section fixed-parallax-size purple-js white-text" id="partenaires">
     <div class="row container section-title">
       <div class="col s12 m12 l12 center">
         <h2>Nos partenaires</h2>
@@ -134,7 +214,6 @@
         </p>
       </div>
     </div>
-    <div class="section"></div>
     <div class="row">
       <div class="col s12 m4 push-m8 center yellow-js">
         <img src="./../images/Logo_DAFS.png" alt="Logo DAFS">
@@ -158,7 +237,7 @@
       </div>
     </div>
 
-    <div class="col s12 m12 l12">
+    <div class="col s12 m12 l12 next-page-team">
       <h5 class="container center next-section" data-nav="team">
         <i class="small material-icons">play_for_work</i>
         La Team
@@ -166,6 +245,8 @@
       </h5>
     </div>
   </div>
+</section>
+  
   
   <div class="parallax-container valign-wrapper overlay">
   <div class="section white-text reseau-section">
@@ -175,30 +256,24 @@
       </div>
     </div>
     <div class="row center">
-      <div class="col s12 m4 l4">
-        <a href="https://www.meetup.com/fr-FR/JavaScript-and-Co/" target="_blank"><span class="zocial-meetup fa-5x"></span></a>
+      <div class="col s3 m3 l3">
+        <a href="https://www.meetup.com/fr-FR/JavaScript-and-Co/" target="_blank"><span class="fa fa-5x fa-meetup"></span></a>
       </div>
-      <div class="col s12 m4 l4">
-        <a href=""><span class="fa fa-5x fa-facebook-square"></span></a>
-      </div>
-      <div class="col s12 m4 l4">
+      <div class="col s3 m3 l3">
         <a href=""><span class="fa fa-5x fa-twitter-square"></span></a>
       </div>
-    </div>
-    <div class="section center">
-    <div class="row">
-      <div class="col s12 m6 l6">
-        <a href=""><span class="fa fa-5x fa-google-plus-square"></span></a>
+      <div class="col s3 m3 l3">
+        <a href=""><span class="fa fa-5x fa-facebook-square"></span></a>
       </div>
-      <div class="col s12 m6 l6">
+      <div class="col s3 m3 l3">
         <a href=""><span class="fa fa-5x fa-youtube-square"></span></a>
       </div>
-    </div>
     </div>
   </div>
   <div class="parallax"><img src="./../images/Bckgd_Reseaux.jpg" alt="Image code sur ordinateur"></div>
   </div>
 
+<section id="team">
   <div class="section fixed-parallax-size purple-js white-text" id="team">
     <div class="row container section-title">
       <div class="col s12 m12 l12 center">
@@ -308,4 +383,6 @@
     </h5>
     -->
   </div>
+</section>
+
 </template>
