@@ -2,6 +2,7 @@ import { validateEmail } from "/imports/library/functions.js";
 
 Template.homepage.onRendered(function() {
   $('.parallax').parallax();
+  $('.collapsible').collapsible();
 
   this.autorun( computation => {
     if ( particlesJS ) {

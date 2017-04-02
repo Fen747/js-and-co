@@ -84,3 +84,13 @@ figcaption {
     margin-top: 300px;
   }
 }
+
+.team-card {
+  background-color: #F8DA59;
+}
+
+.btn.event-btn {
+  background-color: transparent;
+  color: #29293F;
+  border: 2px solid #29293F;
+}
