@@ -94,3 +94,15 @@ figcaption {
   color: #29293F;
   border: 2px solid #29293F;
 }
+
+.icon-chevron {
+  color: #F8DA59;
+}
+
+.pagination.page-choice li.active {
+  background-color: #F8DA59;
+}
+
+.pagination.nbr-page li.active a {
+  color: #29293F;
+}
