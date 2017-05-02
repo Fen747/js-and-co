@@ -114,3 +114,7 @@ figcaption {
     background-color: #F8DA59 !important;
     color: #29293F !important;
 }
+
+.side-nav-divider {
+    background-color: #29293F;
+}
