@@ -63,7 +63,7 @@ figcaption {
     .next-page {
         margin-top: 300px;
     }
-    div > .row.container.video {
+    div>.row.container.video {
         width: 100%;
     }
     .video-1an {
@@ -106,8 +106,8 @@ figcaption {
 
 .btn-large.codefest-btn {
     background-color: transparent;
-    border: solid 2px; 
-    border-color:#F8DA59;
+    border: solid 2px;
+    border-color: #F8DA59;
 }
 
 #side-nav {
