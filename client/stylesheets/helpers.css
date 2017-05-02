@@ -1,23 +1,3 @@
-/*#home {
-  width: 100%;
-  height: 100%;
-}
-
-#iterations {
-  width: 100%;
-  height: 100vh;
-}
-
-#partenaires {
-  width: 100%;
-  height: 100vh;
-}
-
-#team {
-  width: 100%;
-  height: 100vh;
-}*/
-
 .full-col-btn {
     width: 100%;
     height: 100%;
@@ -83,6 +63,15 @@ figcaption {
     .next-page {
         margin-top: 300px;
     }
+    div > .row.container.video {
+        width: 100%;
+    }
+    .video-1an {
+        width: 100%;
+    }
+    .event-meetup {
+        width: 100%;
+    }
 }
 
 .team-card {
@@ -111,6 +100,17 @@ figcaption {
     color: #29293F;
 }
 
-.icon-events:hover {
+.icon-next-section:hover {
     color: #F8DA59;
+}
+
+.btn-large.codefest-btn {
+    background-color: transparent;
+    border: solid 2px; 
+    border-color:#F8DA59;
+}
+
+#side-nav {
+    background-color: #F8DA59 !important;
+    color: #29293F !important;
 }
