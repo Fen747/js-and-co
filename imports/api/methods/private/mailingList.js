@@ -16,7 +16,7 @@ Meteor.methods({
       });
     } catch ( e ) {
       if ( e.errmsg && e.code == 11000 ) {
-        return ( new Meteor.Error("Email connu", "On connaissais déjà cet email, mais merci quand même ! :)") );
+        return ( new Meteor.Error("Email connu", "On connaissait déjà cet email, mais merci quand même ! :)") );
       } else {
         console.log( e );
       }
